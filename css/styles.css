@@ -1,0 +1,35 @@
+/* Global Styles */
+h1, body {
+    color: white;
+}
+
+/* Resume Section */
+.resume {
+    color: black;
+    text-align: left; /* Align the text to the left */
+}
+
+/* Basketball Image */
+.basketball-image, .basketball-image-specific {
+    max-width: 80%; /* Make the image 80% of the container width */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Center the image within its container */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Video Container */
+.media-container .video-container {
+    max-width: 80%; /* Make the video container 80% of the container width */
+    margin: 0 auto; /* Center the video container horizontally */
+}
+
+/* Tableau Placeholder */
+.tableauPlaceholder {
+    max-width: 80%; /* Make the Tableau placeholder 80% of the container width */
+    margin: 0 auto; /* Center the Tableau placeholder horizontally */
+}
+
+/* Visited Hyperlinks */
+a:visited {
+    color: white; /* Color for visited links */
+}
